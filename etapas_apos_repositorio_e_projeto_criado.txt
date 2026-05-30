@@ -1,4 +1,4 @@
-Etapas após ter criado um repositório de novo projeto no GitHub
+Etapas após ter criado um repositório de novo projeto no GitHub:
 
 0 - Após instalar o Git, abrir o Git Bash
 1 - git status e git branch: para verificar status e branch atual
@@ -16,11 +16,16 @@ o repositório remoto
 branch main, caso esteja em outra branch, adiciona o nome da branch atual, exemplo:
 git push origin dev
 11 - Para criar uma nova branch, por exemplo, com o nome "dev", usamos git checkout -b dev
+12 - Após fazer o git push na nova branch, podemos usar o git merge para unir a branch principal
+usando o git merge main. Depois, confirma o merge no GitHub.
 
 Importante:
 
 - Para deletar uma pasta do repositório remoto que já tenha sido deletada no repositório
 local:
+
 git add -A
+
 - Para commits retroativos ou datas futuras:
+
 git commit --date="2026-05-29 15:30:00" -m "Minha mensagem de commit"
