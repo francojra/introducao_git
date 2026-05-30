@@ -1,0 +1,16 @@
+Etapas após ter criado um repositório do novo projeto no GitHub
+
+0 - Após instalar o Git, abrir o Git Bash
+1 - git status e git branch: para verificar status e branch atual
+2 - git remote -v: para saber qual repositório atual está sendo trabalhado
+3 - git branch -M main: para mudar para branch main ou qualquer outra branch
+4 - git branch: conferir se a branch foi alterada e está correta
+5 - cd "caminho da pasta onde está o repositório no computador local"
+6 - git status: verificar quais as alterações feitas no repositório local
+7 - git add . ou git add [nome do arquivo alterado]: prepara os arquivos a serem empurrados para 
+o repositório remoto
+8 - git commit -m "mensagem sobre o que foi modificado no arquivo a ser empurrado"
+9 - git branch: verificar novamente a branch atual
+10 - git push origin main: empurra os arquivos para o repositório remoto, nesse caso para a
+branch main, caso esteja em outra branch, adiciona o nome da branch atual, exemplo:
+git push origin dev
