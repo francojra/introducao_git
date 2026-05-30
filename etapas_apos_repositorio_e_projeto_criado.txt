@@ -1,8 +1,9 @@
-Etapas após ter criado um repositório do novo projeto no GitHub
+Etapas após ter criado um repositório de novo projeto no GitHub
 
 0 - Após instalar o Git, abrir o Git Bash
 1 - git status e git branch: para verificar status e branch atual
 2 - git remote -v: para saber qual repositório atual está sendo trabalhado
+Para adicionar novo repositório: git remote add origin [link do repositório GitHub]
 3 - git branch -M main: para mudar para branch main ou qualquer outra branch
 4 - git branch: conferir se a branch foi alterada e está correta
 5 - cd "caminho da pasta onde está o repositório no computador local"
@@ -14,3 +15,12 @@ o repositório remoto
 10 - git push origin main: empurra os arquivos para o repositório remoto, nesse caso para a
 branch main, caso esteja em outra branch, adiciona o nome da branch atual, exemplo:
 git push origin dev
+11 - Para criar uma nova branch, por exemplo, com o nome "dev", usamos git checkout -b dev
+
+Importante:
+
+- Para deletar uma pasta do repositório remoto que já tenha sido deletada no repositório
+local:
+git add -A
+- Para commits retroativos ou datas futuras:
+git commit --date="2026-05-29 15:30:00" -m "Minha mensagem de commit"
