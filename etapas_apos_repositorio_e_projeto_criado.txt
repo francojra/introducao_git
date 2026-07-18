@@ -3,7 +3,8 @@ Etapas após ter criado um repositório de novo projeto no GitHub:
 0 - Após instalar o Git, abrir o Git Bash
 1 - git status e git branch: para verificar status e branch atual
 2 - git remote -v: para saber qual repositório atual está sendo trabalhado
-Para adicionar novo repositório: git remote add origin [link do repositório GitHub]
+-> Para adicionar novo repositório: git remote add origin [link do repositório GitHub]
+-> Em alguns casos, é necessário primeiro fazer uma modificação local na pasta do projeto
 3 - git branch -M main: para mudar para branch main ou qualquer outra branch
 4 - git branch: conferir se a branch foi alterada e está correta
 5 - cd "caminho da pasta onde está o repositório no computador local"
