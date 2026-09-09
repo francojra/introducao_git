@@ -8,7 +8,12 @@ Etapas após ter criado um repositório de novo projeto no GitHub:
 -> cd "caminho da pasta onde está o repositório no computador local"
 -> O caminho da pasta deve ser aquele onde o arquivo foi alterado ou adicionado
 -> Em alguns casos, é necessário primeiro fazer uma modificação local na pasta do projeto
+
+PARA ADICIONAR ARQUIVOS EM NOVO REPOSITÓRIO REMOTO DO GITHUB
+
 5 - Para adicionar novo repositório: git remote add origin [link do repositório GitHub]
+-> caso não consiga o repositório correto, use:
+git remote set-url origin [link do repositório GitHub]
 6 - git branch -M main: para mudar para branch main ou qualquer outra branch
 7 - git branch: conferir se a branch foi alterada e está correta
 8 - git status: verificar quais as alterações feitas no repositório local
