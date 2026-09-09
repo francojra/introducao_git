@@ -7,20 +7,19 @@ Etapas após ter criado um repositório de novo projeto no GitHub:
 4 - No Git Bash escrever:
 -> cd "caminho da pasta onde está o repositório no computador local"
 -> O caminho da pasta deve ser aquele onde o arquivo foi alterado ou adicionado
--> Para adicionar novo repositório: git remote add origin [link do repositório GitHub]
 -> Em alguns casos, é necessário primeiro fazer uma modificação local na pasta do projeto
-3 - git branch -M main: para mudar para branch main ou qualquer outra branch
-4 - git branch: conferir se a branch foi alterada e está correta
-6 - git status: verificar quais as alterações feitas no repositório local
-7 - git add . ou git add [nome do arquivo alterado]: prepara os arquivos a serem empurrados para 
-o repositório remoto
-8 - git commit -m "mensagem sobre o que foi modificado no arquivo a ser empurrado"
-9 - git branch: verificar novamente a branch atual
-10 - git push origin main: empurra os arquivos para o repositório remoto, nesse caso para a
+5 - Para adicionar novo repositório: git remote add origin [link do repositório GitHub]
+6 - git branch -M main: para mudar para branch main ou qualquer outra branch
+7 - git branch: conferir se a branch foi alterada e está correta
+8 - git status: verificar quais as alterações feitas no repositório local
+9 - git add . (para adicionar todos os arquivos) ou git add [nome do arquivo alterado]: prepara os arquivos a serem empurrados para o repositório remoto
+10 - git commit -m "mensagem sobre o que foi modificado no arquivo a ser empurrado"
+11 - git branch: verificar novamente a branch atual
+12 - git push origin main: empurra os arquivos para o repositório remoto, nesse caso para a
 branch main, caso esteja em outra branch, adiciona o nome da branch atual, exemplo:
 git push origin dev
-11 - Para criar uma nova branch, por exemplo, com o nome "dev", usamos git checkout -b dev
-12 - Após fazer o git push na nova branch, podemos usar o git merge para unir a branch principal
+13 - Para criar uma nova branch, por exemplo, com o nome "dev", usamos git checkout -b dev
+14 - Após fazer o git push na nova branch, podemos usar o git merge para unir a branch principal
 usando o git merge main. Depois, confirma o merge no GitHub clicando na branch atual e nas
 informações de commits ahead e commits behind: creat pull request, merge pull request e confirmar
 
