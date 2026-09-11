@@ -4,7 +4,7 @@ Para criar um repositório de novo projeto no GitHub:
 1 - dentro da pasta Git, abrir o Git Bash
 2 - No Git Bash digitar: git remote add origin [link do repositório GitHub]
 
-Etapas APÓS ter criado um repositório de novo projeto no GitHub:
+Etapas após ter criado um repositório de novo projeto no GitHub:
 
 0 - Após instalar o Git, abrir o Git Bash
 1 - Digitar git status e depois git branch: para verificar status e branch atual
