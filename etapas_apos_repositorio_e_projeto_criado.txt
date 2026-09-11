@@ -1,4 +1,10 @@
-Etapas após ter criado um repositório de novo projeto no GitHub:
+Para criar um repositório de novo projeto no GitHub:
+
+0 - Instalar o Git no computador
+1 - dentro da pasta Git, abrir o Git Bash
+2 - No Git Bash digitar: git remote add origin [link do repositório GitHub]
+
+Etapas APÓS ter criado um repositório de novo projeto no GitHub:
 
 0 - Após instalar o Git, abrir o Git Bash
 1 - Digitar git status e depois git branch: para verificar status e branch atual
@@ -8,13 +14,8 @@ Etapas após ter criado um repositório de novo projeto no GitHub:
 -> cd "caminho da pasta onde está o repositório no computador local"
 -> Em alguns casos, é necessário primeiro fazer uma modificação local na pasta do projeto
 5 - caso não consiga o repositório correto, use: git remote set-url origin [link do repositório GitHub]
-
-PARA ADICIONAR ARQUIVOS EM NOVO REPOSITÓRIO REMOTO DO GITHUB
-
-5 - Para adicionar novo repositório: git remote add origin [link do repositório GitHub]
-
 6 - git branch -M main: para mudar para branch main ou qualquer outra branch
-7 - git branch: conferir se a branch foi alterada e está correta
+7 - git branch: conferir qual a branch atual
 8 - git status: verificar quais as alterações feitas no repositório local
 9 - git add . (para adicionar todos os arquivos) ou git add [nome do arquivo alterado]: prepara os arquivos a serem empurrados para o repositório remoto
 10 - git commit -m "mensagem sobre o que foi modificado no arquivo a ser empurrado"
