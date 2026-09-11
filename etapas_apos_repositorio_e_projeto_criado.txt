@@ -1,7 +1,7 @@
 Etapas após ter criado um repositório de novo projeto no GitHub:
 
 0 - Após instalar o Git, abrir o Git Bash
-1 - git status e git branch: para verificar status e branch atual
+1 - Digitar git status e depois git branch: para verificar status e branch atual
 2 - git remote -v: para saber qual repositório atual está sendo trabalhado
 3 - Se não estiver no repositório desejado, ir na sua pasta local e copiar o caminho
 4 - No Git Bash escrever:
